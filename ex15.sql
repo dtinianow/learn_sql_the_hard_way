@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS person;
+DROP TABLE IF EXISTS pet;
+DROP TABLE IF EXISTS person_pet;
+
+CREATE TABLE person (
+    id INTEGER PRIMARY KEY,
+);
+CREATE TABLE pet (
+    id INTEGER PRIMARY KEY,
+);
+CREATE TABLE person_pet (
+    person_id INTEGER,
+    pet_id INTEGER
+);
